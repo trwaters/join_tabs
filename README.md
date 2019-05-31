@@ -21,7 +21,7 @@ the merged tab dumps will appear in dir_name/merged
 # Example
 Included is a dir containing sample output run on 4 procs with 10 dump files named "TI.block0.out1.00000.tab ... TI.block3.out1.00000.tab" (initial conditions) 
 through "TI.block0.out1.00009.tab ... TI.block3.out1.00009.tab" (final dump),
-put join_tab++ in the folder containing this dir (call it TI1d). To merge all dumps in TI1d, do
+put join_tab++ and join_tabs.sh in the folder containing TI1d. To merge all dumps in TI1d, do
 > ./join_tabs.sh 0 9 TI1d TI
 
 To merge just the 1st dump in TI1d, do
