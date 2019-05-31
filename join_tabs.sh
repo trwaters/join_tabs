@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # USAGE INSTRUCTIONS -
-# First compile join_tab.cpp to generate the executable
+# First compile join_tab++.cpp to generate the executable
 # join_tab++ by doing
-# >> g++ join_tab.cpp mergetabs.cpp -o join_tab++
+# >> g++ join_tab++.cpp mergetabs.cpp -o join_tab++
 
 # This bash script calls join_tab++ to merge all dumps
 # INPUT:
