@@ -1,3 +1,5 @@
+The hdf5 dumps in Athena++ are great for 2D and 3D simulations, but often in setting up such simulations I rely on 1D simulations, in which case it is helpful to use tab dumps which can be easily looked at.  Often it suffices to just run 1D simulations in serial.  However, in the course of my PhD I needed to run very high-resolution 1D simulations quite often, and so I ended up needing to run these on a cluster, in which case I'm returned a bunch of unmerged tab dumps.  This is a simple code designed to live on the cluster to quickly merge 1D tab dumps.  
+
 # join_tabs
 Merge scripts for Athena++ tab dumps, analogous to join_vtk++ included in vis folder of public Athena++ repo
 
