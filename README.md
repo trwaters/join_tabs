@@ -8,11 +8,13 @@ First compile join_tab++.cpp to generate the executable join_tab++ by doing
 > g++ join_tab++.cpp mergetabs.cpp -o join_tab++
 
 This bash script calls join_tab++ to merge all dumps
+
 INPUT:
 put join_tabs.sh and join_tab++ in same folder as the dir containing a folder with Athena++ tab dumps and then do
-> ./join_tabs.sh 0 500 dir_name problem_id
+> ./join_tabs.sh 0 N dir_name problem_id
 
-where problem_id is the variable from the input file
+where 0 N denote the range of files to merge and problem_id is the variable from the input file.
+
 OUTPUT:
 the merged tab dumps will appear in dir_name/merged
 
