@@ -6,7 +6,7 @@ First created March 2014 by Tim Waters for use with C-version Athena
 This version was updated in 2018 to work with Athena++ tab output.
 =======================================================================================
 Command Line Usage:
- * compile using g++ join_tab.cpp mergetabs.cpp -o join_tab
+ * compile using g++ join_tab.cpp mergetabs.cpp -o join_tab++
  * execute using ./join_tab output.tab file1.tab file2.tab file3.tab ...
 */
 
